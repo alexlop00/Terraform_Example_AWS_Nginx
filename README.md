@@ -28,7 +28,7 @@ As per the scope of this script, the template deploys:
 
 This script does not allow SSH access, nor does it configure a key pair.
 
-WARNING: This script assumes the user wants to deploy the resources in the "us-east-2" availability zone. Adjust according to your configuration; Adjustments indicate by "#ADJUST" comment wihin the script. 
+WARNING: This script assumes the user wants to deploy the resources in the "us-east-2" availability zone. Adjust according to your configuration; Adjustments indicated by "#ADJUST" comment wihin the script. 
 
 ## Disclaimers
 This script is intended for demonstation purposes only. It does not provide best security practices. 
