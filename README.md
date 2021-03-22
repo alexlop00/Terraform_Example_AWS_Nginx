@@ -13,7 +13,7 @@ Important Note: This manual assumes users are familiar with navigating Amazon We
 ## Scope
 As per the scope of this script, the template deploys: 
 * a Virtual Private Cloud (VPC)
-...CIDR Block: 192.168.4.0/24
+  CIDR Block: 192.168.4.0/24
 ...Enabled DNS Support
 * a Subnet
 ...CIRD Block: 192.168.4.0/26
