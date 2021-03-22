@@ -12,20 +12,20 @@ Important Note: This manual assumes users are familiar with navigating Amazon We
 
 ## Scope
 As per the scope of this script, the template deploys: 
-* a Virtual Private Cloud (VPC)
-  CIDR Block: 192.168.4.0/24
-...Enabled DNS Support
-* a Subnet
-...CIRD Block: 192.168.4.0/26
-* an Internet Gateway
-* a Route Table & Route
-...Associates Route Table to Subnet
-* a Security Group
-...Enables HTTP Access
-...Allows all outbound requests
-* an EC2 Instance
-...Image: Ubuntu 20.04
-...Installs/Deploys Nginx server
+1. a Virtual Private Cloud (VPC)
+* CIDR Block: 192.168.4.0/24
+* Enabled DNS Support
+2. a Subnet
+* CIDR Block: 192.168.4.0/26
+3. an Internet Gateway
+4. a Route Table & Route
+* Associates Route Table to Subnet
+5. a Security Group
+* Enables HTTP Access
+* Allows all outbound requests
+6. an EC2 Instance
+* Image: Ubuntu 20.04
+* Installs/Deploys Nginx server
 
 This script does not allow SSH access, nor does it configure a key pair.
 
