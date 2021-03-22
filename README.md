@@ -7,7 +7,7 @@ This purpose of this repository is to provide a sample Terraform template for de
 ## Intended Audience
 The intended audience for this manual is cloud administrators. Configuring the virtual private cloud (VPC) relies heavily on local area network (LAN) and wide area network (WAN) concepts (e.g. subnetting, routing, server configuration). Familiarity with these concepts aids in understanding each section of the template.
 
-Important Note: This manual assumes users are familiar with navigating Amazon Web Services (AWS) services and Terraform. 
+NOTE: This manual assumes users are familiar with navigating Amazon Web Services (AWS) services and Terraform. 
 
 ## Scope
 As per the scope of this script, the template deploys: 
@@ -37,7 +37,8 @@ This script is intended for demonstation purposes only. It does not provide best
 
 # List of Materials and Equipment Needed
 Users must configure these services prior to attempting to deploy the Terraform template: 
-* Amazon Web Services (AWS) Account - An AWS account provides access to Amazon’s cloud services. NOTE: This account must have the appropriate permissions to deploy a VPC & EC2 instance. 
+* Amazon Web Services (AWS) Account - An AWS account provides access to Amazon’s cloud services. 
+  * NOTE: This account must have the appropriate permissions to deploy a VPC & EC2 instance. 
 * Amazon Web Services (AWS) Command-Line Utility (CLI) - The AWS CLI is a command-line utility designed to provide terminal access to AWS services. 
 * Terraform Command-Line Utility (CLI) - The Terraform CLI is a command-line utility designed to provide terminal access to Terraform features. 
 
