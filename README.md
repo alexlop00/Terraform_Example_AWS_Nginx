@@ -46,8 +46,8 @@ WARNING: Both the AWS CLI & Terraform CLI must be configured prior to running th
 
 # Recommended Reading
 * Amazon Web Services (AWS)
- * [AWS Command-Line Utility (CLI)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+  * [AWS Command-Line Utility (CLI)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 * Terraform
- * [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli)
- * [Terraform AWS Synax](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
- * [Terraform Commands](https://www.terraform.io/docs/cli/commands/index.html)
+  * [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+  * [Terraform AWS Synax](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+  * [Terraform Commands](https://www.terraform.io/docs/cli/commands/index.html)
