@@ -3,6 +3,7 @@ provider "aws" {
   profile = "default"
   region  = "us-east-2"
 }
+#ADJUST
 
 #Provision VPC
 resource "aws_vpc" "alexlop_vpc" {
@@ -23,6 +24,7 @@ resource "aws_subnet" "alexlop_subnet" {
     Name = "alexlop_subnet"
   }
 }
+#ADJUST
 
 #Provision Internet Gateway
 resource "aws_internet_gateway" "alexlop_ig" {
@@ -52,8 +54,8 @@ resource "aws_route_table_association" "alexlop_associate" {
 }
 
 #Provision Security Group
-#WARNING: Allows OPEN access to EC2 Instance
-#Allows all outbound traffic
+#Allows HTTP access to EC2 Instance
+#WARNING: Allows all outbound traffic
 resource "aws_security_group" "alexlop_secgroup" {
   description 	= "alexlop example: provision vpc & ec2 using terraform"
   vpc_id	= aws_vpc.alexlop_vpc.id
