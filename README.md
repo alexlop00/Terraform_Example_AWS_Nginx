@@ -1,5 +1,4 @@
 # Terraform_Example_AWS_Nginx
-Utilizes Terraform to deploy Amazon Web Services (AWS) Virtual Private Cloud (VPC) &amp; Elastic Compute Cloud (EC2) instance, includes an nginx (HTTP) deployment
 
 # Introduction
 ## Purpose
