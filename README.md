@@ -53,3 +53,16 @@ WARNING: Both the AWS CLI & Terraform CLI must be configured prior to running th
   * [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli)
   * [Terraform AWS Synax](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
   * [Terraform Commands](https://www.terraform.io/docs/cli/commands/index.html)
+
+# Proof of Concept
+Download the Terraform Template.
+![Download Script](https://github.com/alexlop00/Terraform_Example_AWS_Nginx/blob/main/ProofofConcept/DownloadScript.png)
+
+Initialize Terraform. 
+![Initialize Directory](https://github.com/alexlop00/Terraform_Example_AWS_Nginx/blob/main/ProofofConcept/InitializeDir.png)
+
+Apply the Terraform Plan. 
+![Apply Terraform Plan](https://github.com/alexlop00/Terraform_Example_AWS_Nginx/blob/main/ProofofConcept/TerraformApply.png)
+
+View the Nginx Deployment. 
+![View the Deployment](https://github.com/alexlop00/Terraform_Example_AWS_Nginx/blob/main/ProofofConcept/ViewNginx.png)
