@@ -13,19 +13,19 @@ Important Note: This manual assumes users are familiar with navigating Amazon We
 ## Scope
 As per the scope of this script, the template deploys: 
 * a Virtual Private Cloud (VPC)
-** CIDR Block: 192.168.4.0/24
-** Enabled DNS Support
+...CIDR Block: 192.168.4.0/24
+...Enabled DNS Support
 * a Subnet
-** CIRD Block: 192.168.4.0/26
+...CIRD Block: 192.168.4.0/26
 * an Internet Gateway
 * a Route Table & Route
-** Associates Route Table to Subnet
+...Associates Route Table to Subnet
 * a Security Group
-** Enables HTTP Access
-** Allows all outbound requests
+...Enables HTTP Access
+...Allows all outbound requests
 * an EC2 Instance
-** Image: Ubuntu 20.04
-** Installs/Deploys Nginx server
+...Image: Ubuntu 20.04
+...Installs/Deploys Nginx server
 
 This script does not allow SSH access, nor does it configure a key pair.
 
@@ -33,8 +33,8 @@ This script does not allow SSH access, nor does it configure a key pair.
 This script is intended for demonstation purposes only. It does not provide best security practices. 
 * The image is not hardened. 
 * A direct route to the instance is not configured.
-* Security group contains open-access. 
-* The nginx server is not secured. 
+* Security group contains open access. 
+* The nginx software is not secured. 
 
 # List of Materials and Equipment Needed
 Users must configure these services prior to attempting to deploy the Terraform template: 
@@ -46,8 +46,8 @@ WARNING: Both the AWS CLI & Terraform CLI must be configured prior to running th
 
 # Recommended Reading
 * Amazon Web Services (AWS)
-** [AWS Command-Line Utility (CLI)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+...[AWS Command-Line Utility (CLI)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 * Terraform
-** [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-** [Terraform AWS Synax](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-** [Terraform Commands](https://www.terraform.io/docs/cli/commands/index.html)
+...[Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+...[Terraform AWS Synax](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+...[Terraform Commands](https://www.terraform.io/docs/cli/commands/index.html)
